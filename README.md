@@ -1,101 +1,52 @@
+# CS 471 – Learn New Skills Extra Credit
 
-# React Chatbot Project
+## Course Information
 
-This project is a simple chatbot application created with React as part of the **CS 471 Learn New Skills Extra Credit** assignment.
+**Course:** React Tutorial Full Course - Beginner to Pro (React 19, 2025)
 
-# ChatBot Demo Video
-https://github.com/user-attachments/assets/0dd8dcd4-1eff-4576-95c6-3e0a5da65218
+**Instructor:** SuperSimpleDev
 
+**Course Link:**  
+https://www.youtube.com/watch?v=TtPXvEcE11E
 
-## Course
+**Course Length:**  
+Approximately 11 hours and 31 minutes
 
-**React Tutorial Full Course - Beginner to Pro (React 19, 2025)**  
-Instructor: SuperSimpleDev
+## Application Created
 
-The course teaches React by building projects and covers topics including JSX, components, props, state, event handlers, hooks, CSS, Vite, React Router, testing, and deployment.
+For this course, I created a chatbot application using React.
 
-## About the Project
+The chatbot allows the user to enter messages and receive different responses. Some of the features I implemented include:
 
-This chatbot was created to practice the React concepts covered in the course.
+- Responding to greetings
+- Displaying the current time
+- Displaying today's date
+- Flipping a coin
+- Rolling a dice
+- Responding to thank-you messages
 
-The user can type a message into the input box and the chatbot will respond based on the message.
+While creating the chatbot, I practiced several React concepts from the course, including:
 
-Some example prompts are:
+- JSX
+- React components
+- Props
+- State with `useState`
+- Event handlers
+- Rendering lists with `map()`
+- User input
+- React hooks
+- CSS with React
+- Vite
 
-- `hello chatbot`
-- `what time is it?`
-- `what is today's date?`
-- `flip a coin`
-- `roll a dice`
-- `thank you`
+I separated the application into components for the chat input, individual chat messages, and the list of messages. I also used React state to store the messages and automatically update the page when the user sends a new message.
 
-## React Concepts Used
+## Demo Video
 
-### Components
+https://github.com/user-attachments/assets/c26a2a4c-4b5c-4de4-a96b-39749a9ec84d
 
-The application is divided into multiple React components:
+The video demonstrates the React chatbot application and briefly explains some of the React concepts I learned while completing the course.
 
-- `App` - Main application component
-- `ChatInput` - Handles the input box and Send button
-- `ChatMessage` - Displays an individual message
-- `ChatMessages` - Displays the list of chat messages
+**Video Length:**  
+5:00 min
 
-### Props
-
-Props are used to pass information between components, such as the message text, sender, and list of chat messages.
-
-### State
-
-React's `useState` hook is used to store and update the chat messages and user input.
-
-### Event Handlers
-
-The application uses event handlers to detect when the user types a message, clicks the Send button, or presses Enter.
-
-### JSX
-
-JSX is used to combine JavaScript and HTML-like syntax when creating the user interface.
-
-### CSS
-
-CSS is used to style the chatbot, messages, input box, and Send button.
-
-## Running the Project
-
-Install the required packages:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-Open the local URL displayed by Vite in the terminal.
-
-## Project Structure
-
-```text
-ChatBot/
-├── index.html
-├── package.json
-├── package-lock.json
-├── README.md
-└── src/
-    ├── App.jsx
-    ├── App.css
-    ├── main.jsx
-    └── components/
-        ├── ChatInput.jsx
-        ├── ChatMessage.jsx
-        └── ChatMessages.jsx
-```
-
-## What I Learned
-
-While working through the course and building this project, I learned how React applications can be separated into reusable components. I also learned how to use props to share information between components and state to make an application interactive.
-
-Building the chatbot helped me understand how JSX, components, props, state, event handlers, hooks, and CSS work together in a React application.
+The video sharing permissions are set so that anyone with the link can view it.
