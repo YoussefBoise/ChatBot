@@ -1,5 +1,4 @@
 
-https://github.com/user-attachments/assets/3f56d8a3-b76f-4283-832b-85d74c1d3e3e
 # React Chatbot Project
 
 This project is a simple chatbot application created with React as part of the **CS 471 Learn New Skills Extra Credit** assignment.
