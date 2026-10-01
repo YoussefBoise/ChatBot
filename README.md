@@ -48,5 +48,3 @@ The video demonstrates the React chatbot application and briefly explains some o
 
 **Video Length:**  
 5:00 min
-
-The video sharing permissions are set so that anyone with the link can view it.
